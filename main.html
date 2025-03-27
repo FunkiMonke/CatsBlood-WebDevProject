@@ -8,16 +8,17 @@
 </head>
 <body>
     <div class="container-fluid bg-primary-subtle">
-        <nav class="navbar navbar-expand-lg bg-light p-3">
+        <nav class="navbar navbar-expand-lg bg-info-subtle p-3">
           <div class="container-fluid">
-            <a class="navbar-brand" href="https://tenor.com/en-GB/view/seal-sax-spin-cute-gif-8848340">Cat's Blood</a>
+            <a class="navbar-brand" href="https://i.redd.it/xxothi9tep671.jpg">Cat's Blood</a>
+                <img src="https://i.redd.it/xxothi9tep671.jpg" alt="" height="50">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">PlaceHolder1</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">PlaceHolder2</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/watch?v=jIQ6UV2onyI">Nyan Cat</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/results?search_query=funny+cat+videos">Funny Cat Videos</a></li>
               </ul>
             </div>
           </div>
@@ -26,8 +27,12 @@
         
 
         <div class="row md">
-            <div class="col-12 p-3 bg-success">
-                <h1>Welcome!</h1>
+            <div class="col-6 p-3 bg-success">
+                <h1>Welcome to Cat's Blood!</h1>
+                <p>Cat's Blood is a turn-based card game based of Queen's Blood in Final Fantasy VII: Rebirth.</p>
+            </div>
+            <div class="col-6 p-3 bg-success text-center">
+                <img src="https://media.tenor.com/oOfVj9oSG98AAAAi/cat-explode.gif" alt="">
             </div>
         </div>
 
@@ -167,17 +172,76 @@
         <div class="row md-3 p-3">
             <div class="col-12 col-md-4 m3 text-center">
                 <div class="shadow card">
-                    <img src="https://media1.tenor.com/m/KtfI_kb0RbkAAAAC/cat-dance.gif" alt="#">
+                    <img src="https://media1.tenor.com/m/KtfI_kb0RbkAAAAC/cat-dance.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Boogie Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#boogieCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
                     </div>
                 </div>
+                <div class="modal fade" id="boogieCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Boogie Cat</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/KtfI_kb0RbkAAAAC/cat-dance.gif" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Boogie Cat</h2>
+                                    <li>Value : 2 points</li>
+                                    <li>Cost : 1 Slot</li>
+                                    <li>PWR : Boogie Wonderland - top and bottom card get +1 Value</li>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
             <div class="col-12 col-md-4 m3 text-center">
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/PpDtmuVnEXUAAAAd/maxwell-cat.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit2 </p>
+                      <p class="card-text"> Microwave Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#MicrowaveCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="MicrowaveCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Microwave Cat</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/PpDtmuVnEXUAAAAd/maxwell-cat.gif" alt="" width="240">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Microwave Cat</h2>
+                                    <li>Value : 2 points</li>
+                                    <li>Cost : 1 Slot</li>
+                                    <li>PWR : MMMMMMMM - Lower all cards in the next row by -1</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer"> 
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
@@ -185,7 +249,37 @@
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/mwXBI6CY9l8AAAAd/cat-shocked.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Shocked Cat</p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body ">
+                            <div class="row">
+                                <div class="col-md-6 p-1">
+                                    <img src="https://media1.tenor.com/m/mwXBI6CY9l8AAAAd/cat-shocked.gif" alt="" height="200">
+                                </div>
+                                <div class="col-md-6  justify-content-center">
+                                    <h2>Shocked Cat</h2>
+                                    <li>Value : 1 points</li>
+                                    <li>Cost : 1 Slot</li>
+                                    <li>PWR : Brain Implosion - destroy the whole column in front AND behind you, including this card</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
@@ -196,15 +290,76 @@
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/atHaosIyQLwAAAAC/cat-headbutt.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Headbutt Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#headbuttCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
                     </div>
                 </div>
+                <div class="modal fade" id="headbuttCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/atHaosIyQLwAAAAC/cat-headbutt.gif" alt="" height="300">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Headbutt Cat</h2>
+                                    <li>Value : 5 points</li>
+                                    <li>Cost : 3 Slot</li>
+                                    <li>PWR : BONK - decrease all opponent cards on the same row by 1</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
             </div>
             <div class="col-12 col-md-4 m3 text-center">
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/TuJuhkqae_EAAAAd/kitty-wtf.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit2 </p>
+                      <p class="card-text"> Crackhead Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#CrackheadCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="CrackheadCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 justify-content-center">
+                                    <img src="https://media1.tenor.com/m/TuJuhkqae_EAAAAd/kitty-wtf.gif" alt="" height="300" width="200">
+                                </div>
+                                <div class="col-md-6 justify-content-center">
+                                    <div class="col-md-6 text-center">
+                                        <h2>Crackhead Cat</h2>
+                                        <li>Value : 1 points</li>
+                                        <li>Cost : 1 Slot</li>
+                                        <li>PWR : Withdrawl - return all cards on the next row to the opponents hand</li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
@@ -212,26 +367,115 @@
                 <div class="shadow card">
                     <img src="https://media.tenor.com/39c7_ZNzC4MAAAAj/silly-cat-silly.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Bouncing Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#BouncingCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>
+                </div>
+                <div class="modal fade" id="BouncingCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media.tenor.com/39c7_ZNzC4MAAAAj/silly-cat-silly.gif" alt="" height="300">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Bouncing Cat</h2>
+                                    <li>Value : 3 points</li>
+                                    <li>Cost : 2 Slot</li>
+                                    <li>PWR : YIPPEEEE - All cards on the field get +1</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
         </div>
+
         <div class="row md-3 p-3">
             <div class="col-12 col-md-4 m3 text-center">
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/L9-SdbBc9DMAAAAd/cat-cute.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Float Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#FloatCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
                     </div>
                 </div>
+                <div class="modal fade" id="FloatCat" tabindex="-1" aria-labelledby="FloatCat" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/L9-SdbBc9DMAAAAd/cat-cute.gif" alt="" height="200">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Float Cat</h2>
+                                    <li>Value : 3 points</li>
+                                    <li>Cost : 2 Slot</li>
+                                    <li>PWR : no thought, only float - boost the slot it covers by 2</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
             </div>
 
             <div class="col-12 col-md-4 m3 text-center">
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/1IMoSGd3FS4AAAAC/seal-sax.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit </p>
+                      <p class="card-text"> Imposter Jazz Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#JazzCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>  
+                </div>
+                <div class="modal fade" id="JazzCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/1IMoSGd3FS4AAAAC/seal-sax.gif" alt="" height="150">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Imposter Jazz Cat</h2>
+                                    <li>Value : 3 points</li>
+                                    <li>Cost : 3 Slot</li>
+                                    <li>PWR : Saxy Solo - all of your cards are boosted by +3 AND slots and increased by 1</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
@@ -240,30 +484,50 @@
                 <div class="shadow card">
                     <img src="https://media1.tenor.com/m/3fZm-ppw1NYAAAAd/hello-wyd.gif" alt="#" height="672">
                     <div class="card-body">
-                      <p class="card-text"> shit2 </p>
+                      <p class="card-text"> Scratch Cat </p>
+                      <button type="button" class="shadow btn btn-info" data-bs-toggle="modal" data-bs-target="#ScratchCat">View Details</button>
+                      <div class="modal-dialog modal-dialog"></div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="ScratchCat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media1.tenor.com/m/3fZm-ppw1NYAAAAd/hello-wyd.gif" alt="" height="300">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Scratch Cat</h2>
+                                    <li>Value : 5 points</li>
+                                    <li>Cost : 3 Slot</li>
+                                    <li>PWR : Just Straight Claws - all opponent cards are reduced by 2</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </div>
             
         </div>
 
-
-
         <div class="row">
-            <div class="col-12 text-center">
-                <footer>footer</footer>
+            <div class="col-12 text-center text-bg-success bg-dark p-3 mt-3">
+                <p>Good luck in your matches and have fun!</p>
             </div>
             
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
-
-
-
-
-
-
 </html>
